@@ -8,54 +8,34 @@ body{
 /* HEADER */
 
 .topbar{
-
   background:#ffffff;
-
   padding:15px 35px;
-
   display:flex;
-
   justify-content:space-between;
-
   align-items:center;
-
   color:white;
-
   position:sticky;
-
   top:0;
-
   z-index:1000;
-
   box-shadow:0 2px 8px rgba(0,0,0,0.15);
 }
 
 .title-area h1{
-
   margin:0;
-
   font-size:30px;
-
   font-weight:700;
 }
 
 .subtitle{
-
   margin-top:4px;
-
   font-size:14px;
-
   color:rgba(255,255,255,0.75);
 }
 
 .logo-pal{
-
   width:75px;
-
   height:auto;
-
   object-fit:contain;
-
   display:block;
 }
 
@@ -80,13 +60,9 @@ body{
 }
 
 .logo-pal{
-
   width:160px;
-
   height:auto;
-
   object-fit:contain;
-
   display:block;
 }
 
@@ -96,7 +72,6 @@ body{
 .container{
   display:flex;
   gap:20px;
-
   padding:20px;
 }
 
@@ -127,36 +102,28 @@ body{
 .card h3{
   margin-top:0;
   margin-bottom:12px;
-
   font-size:20px;
 }
 
 .available{
   color:green;
   font-weight:700;
-
   margin-bottom:20px;
 }
 
 .used{
   color:red;
   font-weight:700;
-
   margin-bottom:20px;
 }
 
 button{
   background:#213a56;
   color:white;
-
   border:none;
-
   padding:11px 18px;
-
   border-radius:10px;
-
   cursor:pointer;
-
   transition:0.2s;
 }
 
@@ -168,18 +135,14 @@ button:hover{
 
 .schedule{
   background:white;
-
   padding:25px;
-
   border-radius:14px;
-
   box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
 .schedule h3{
   margin-top:20px;
   margin-bottom:20px;
-
   font-size:20px;
 }
 
@@ -188,15 +151,12 @@ button:hover{
 .filter-form{
   display:flex;
   gap:10px;
-
   margin-bottom:10px;
 }
 
 .filter-form input{
   padding:10px;
-
   border:1px solid #ddd;
-
   border-radius:8px;
 }
 
@@ -204,17 +164,12 @@ button:hover{
 
 .booking-header{
   display:grid;
-
   grid-template-columns:
   2fr 1fr 1fr 2fr;
-
   align-items:center;
   text-align:center;
-
   padding:16px 20px;
-
   font-weight:700;
-
   border-bottom:2px solid #eee;
 }
 
@@ -226,11 +181,8 @@ button:hover{
 
 .booking-item{
   position:relative;
-
   padding:18px 20px;
-
   border-bottom:1px solid #eee;
-
   transition:0.2s;
 }
 
@@ -240,16 +192,11 @@ button:hover{
 
 .booking-info{
   display:grid;
-
   grid-template-columns:
   2fr 1fr 1fr 2fr;
-
   align-items:center;
-
   text-align:center;
-
   gap:20px;
-
   transition:0.2s;
 }
 
@@ -257,24 +204,15 @@ button:hover{
 
 .booking-hover{
   position:absolute;
-
   inset:0;
-
   display:flex;
-
   justify-content:center;
   align-items:center;
-
   gap:30px;
-
   opacity:0;
-
   transition:0.2s;
-
   background:rgba(255,255,255,0.55);
-
   backdrop-filter:blur(2px);
-
   border-radius:10px;
 }
 
@@ -289,12 +227,9 @@ button:hover{
 
 .booking-hover a{
   text-decoration:none;
-
   color:#111827;
-
   font-size:16px;
   font-weight:600;
-
   transition:0.2s;
 }
 
@@ -306,52 +241,38 @@ button:hover{
 
 .modal{
   display:none;
-
   position:fixed;
-
   top:0;
   left:0;
-
   width:100%;
   height:100%;
-
   background:rgba(0,0,0,0.45);
 }
 
 .modal-content{
   background:white;
-
   width:350px;
-
   margin:200px auto;
-
   padding:22px;
-
   border-radius:14px;
-
   display:flex;
   flex-direction:column;
-
   gap:12px;
 }
 
 .modal-content input,
 .modal-content textarea{
   padding:10px;
-
   border:1px solid #ddd;
-
   border-radius:8px;
 }
 
 /* RESPONSIVE */
 
 @media(max-width:900px){
-
   .container{
     flex-direction:column;
   }
-
   .left,
   .right{
     width:100%;
@@ -363,20 +284,15 @@ button:hover{
 
   .booking-header,
   .booking-info{
-
     grid-template-columns:
     1fr 1fr;
-
     gap:10px;
-
     font-size:14px;
   }
 
   .topbar{
     padding:14px 20px;
   }
-
-
 }
 
 .edit-container{
@@ -513,106 +429,71 @@ button:hover{
 }
 
 .history-container{
-
   width:95%;
-
   margin:30px auto;
 }
 
 .history-title{
-
   text-align:center;
-
   color:#ffff;
-
   font-size:32px;
-
   margin-bottom:25px;
 }
 
 .history-table{
-
   width:100%;
-
   background:white;
-
   border-radius:16px;
-
   overflow:hidden;
-
   box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
 .history-table table{
-
   width:100%;
-
   border-collapse:collapse;
 }
 
 .history-table th{
-
   background:#213a56;
-
   color:white;
-
   padding:16px;
-
   text-align:center;
 }
 
 .history-table td{
-
   padding:14px;
-
   text-align:center;
-
   border-bottom:1px solid #eee;
 }
 
 .history-footer{
-
   margin-top:20px;
-
   display:flex;
-
   justify-content:flex-start;
 }
 
 .history-action{
-
   display:flex;
-
   gap:10px;
-
   margin-bottom:20px;
 }
 
 .btn-export{
-
   background:#997953;
-
   color:white;
-
   text-decoration:none;
-
   padding:11px 18px;
-
   border-radius:10px;
-
   font-weight:500;
-
   transition:0.2s;
 }
 
 .btn-export:hover{
-
   background:#adaa80;
   transform:translateY(-1px);
 }
 
 body{
-
   min-height:100vh;
   display:flex;
   flex-direction:column;
@@ -625,4 +506,20 @@ body{
   background:#213a56;
   color:white;
   font-size:13px;
+}
+
+.btn-delete{
+  background:#997953 !important;
+  color:white;
+  border:none;
+  padding:12px;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn-delete:hover{
+  background:#7d5f3f !important;
+  transform:translateY(-2px);
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
 }
